@@ -1,0 +1,39 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgba(0, 128, 128, 0.489);
+    display: flex;
+}
+
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+input,
+label {
+    margin: .4rem 0;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+ text-decoration: none;
+}
+.search{
+    height: 4rem;
+    justify-content: center;
+
+}
+nav ul a:active{
+    color: blue;
+}
+nav ul a:hover{
+    font-weight: bold;
+}
+nav ul a{
+    color: black;
+}
