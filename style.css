@@ -37,3 +37,18 @@ nav ul a:hover{
 nav ul a{
     color: black;
 }
+main{
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    width: 70%;
+    flex-wrap: wrap;
+}
+aside{
+    width: 15%;
+    flex-wrap: wrap;
+}
+aside img{
+    width: 10%;
+}
