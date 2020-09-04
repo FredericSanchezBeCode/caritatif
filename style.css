@@ -40,15 +40,28 @@ nav ul a{
 main{
     display: flex;
     justify-content: space-between;
+    padding: 3em;
+    border: 3px dotted blue;
+
+}
+main:first-child{
+    border: 1px solid red;
 }
 article{
     width: 70%;
     flex-wrap: wrap;
+    margin: 1em;
+    border-right: 1px solid black;
 }
 aside{
     width: 15%;
     flex-wrap: wrap;
 }
 aside img{
-    width: 22%;
+    width: 80%;
 }
+
+footer{
+    background-color: violet;
+}
+gff
