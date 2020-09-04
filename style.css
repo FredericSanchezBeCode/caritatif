@@ -20,6 +20,9 @@ label {
 nav ul{
     list-style-type: none;
 }
+section{
+    align-content: center;
+}
 nav ul a{
  text-decoration: none;
 }
@@ -46,6 +49,7 @@ main{
 }
 main:first-child{
     border: 1px solid red;
+    /* not neededvb */
 }
 article{
     width: 70%;
@@ -59,9 +63,23 @@ aside{
 }
 aside img{
     width: 80%;
+    padding-top: 7em;
 }
 
 footer{
-    background-color: violet;
+    background-color:violet;
+    display: flex;
+    padding: 0 3em 0 3em;
 }
-gff
+footer ul{
+    display: inline;
+    width: 25%;
+    border-right: 1px solid black;
+}
+button{
+    padding:0.5em 2em 0.5em 2em;
+    border: none;
+    margin-top: 1em;
+    background-color: darkgreen;
+    text-align: center;
+}
