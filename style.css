@@ -63,8 +63,8 @@ main{
 
 
 }
-main:first-child{
-    border: 1px solid red;
+section:first-child{
+    justify-self: center;
     /* not neededvb */
 }
 article{
