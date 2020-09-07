@@ -1,6 +1,7 @@
 q{
     font-size: 1.3em;
     padding: 1em 1em 1em 1em;
+    margin-top: 2EM;
 }
 body{
     margin: 0%;
@@ -88,8 +89,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     flex-basis: 30%;
-    padding: 0 3em 0 3em;
-    /* align-items: center  ; */
+    align-items: center  ;
 }
 footer ul{
     align-content: center;
@@ -101,6 +101,7 @@ footer ul{
 footer div{
     width: 30%;
     border-right: 1px solid black;
+    height:100% ;
     
 }
 button{
@@ -109,4 +110,13 @@ button{
     margin-top: 1em;
     background-color: darkgreen;
     text-align: center;
+}
+.galery ul{
+    list-style-type: none;
+}
+.galery ul li{
+    padding: 1em;
+}
+.galery ul li a{
+    text-decoration: none;
 }
